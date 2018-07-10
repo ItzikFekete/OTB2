@@ -1,0 +1,18 @@
+body {
+  margin-left: 50px;
+  margin-top: 40px;
+}
+
+.row {
+  margin: 45px;
+}
+
+.hover {
+  background-color: aqua;
+  border: inset;
+  color: #000;
+}
+
+.dices {
+  margin: 45px;
+}
