@@ -27,7 +27,6 @@ class treausre {
   }
 }
 var treasureMix = new treausre(0, 1, 2);
-var treasureMix2 = treasureMix.random();
 var dirt1 = document.querySelector('.dirt1');
 var dirt2 = document.querySelector('.dirt2');
 var dirt3 = document.querySelector('.dirt3');
@@ -149,7 +148,6 @@ document.querySelector('.dice2').addEventListener('click', function () {
   var dice2 = document.querySelector('.dice2');
   if (dice2 = d1) {
     document.querySelector('.dirt1').style.display = 'block';
-    $()
     $('.result').append('<center><img src="img/dices/dice1.png" height="45"> <br><strong>1</strong> <p> Pleasae see above what it is displayed, when you hover</p>');
 
   } else if (dice2 = d2) {
