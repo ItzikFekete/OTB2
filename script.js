@@ -1,5 +1,3 @@
-
-
 var dirt1 = document.querySelector('.dirt1');
 var dirt2 = document.querySelector('.dirt2');
 var dirt3 = document.querySelector('.dirt3');
@@ -92,43 +90,21 @@ document.querySelector('.d3').style.display = 'none';
 document.querySelector('.d4').style.display = 'none';
 document.querySelector('.d5').style.display = 'none';
 document.querySelector('.d6').style.display = 'none';
+ 
 
 document.querySelector('.dice2').addEventListener('click', function () {
-
-  d1 = Math.floor(Math.random() * 6 + 1);
-  var d1 = document.querySelector('.d1');
-  d1.src = "img/dices/dice" + d1 + ".png";
-
-  d2 = Math.floor(Math.random() * 6 + 1);
-  var d2 = document.querySelector('.d2');
-  d2.src = "img/dices/dice" + d2 + ".png";
-
-  d3 = Math.floor(Math.random() * 6 + 1);
-  var d3 = document.querySelector('.d3');
-  d3.src = "img/dices/dice" + d3 + ".png";
-
-  d4 = Math.floor(Math.random() * 6 + 1)
-  var d4 = document.querySelector('.d4');
-  d4.src = "img/dices/dice" + d4 + ".png";
-
-  d5 = Math.floor(Math.random() * 6 + 1);
-  var d5 = document.querySelector('.d5');
-  d5.src = "img/dices/dice" + d5 + ".png";
-
-  d6 = Math.floor(Math.random() * 6 + 1);
-  var d6 = document.querySelector('.d6');
-  d6.src = "img/dices/dice" + d6 + ".png";
-  var dice2 = document.querySelector('.dice2');
-  if (dice2 = d1) {
+var diceRoll= Math.floor(Math.random()*6+1); 
+  
+  if (diceRoll===1) {
+    d11.src = "img/dices/dice1.png";
     document.querySelector('.dirt1').style.display = 'block';
     $('.result').append('<center><img src="img/dices/dice1.png" height="45"> <br><strong>1</strong> <p> Pleasae see above what it is displayed, when you hover</p>');
 
-  } else if (dice2 = d2) {
+  } else if (d11===2) {
     document.querySelector('.dirt1').style.display = 'block';
     document.querySelector('.dirt2').style.display = 'block';
     document.querySelector('.dirt3').style.display = 'block';
     $('.result').append('<center><img src="img/dices/dice2.png" height="45"> <br><strong>2</strong> <p> You will see above A B C are displayed when you hover</p>');
-    console.log(d2);
   } else if (dice2 = d3) {
     $('.result').append('<center><img src="img/dices/dice3.png" height="45"><br><strong>2</strong> <p> Please see above random three will show up</p> ');
     treasureMix2.style.display = 'block';
