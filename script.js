@@ -1,32 +1,5 @@
-class treausre {
-  constructor(HTML, CSS, JavaScript, ASP, SQL, Ruby) {
-    this._HTML = document.querySelector('.dirt1');
-    this._CSS = document.querySelector('.dirt2');
-    this._JavaScript = document.querySelector('.dirt3');
-    this._ASP = document.querySelector('.dirt4');
-    this._SQL = document.querySelector('.dirt5');
-    this._Ruby = document.querySelector('.dit6');
-  }
-  get HTML() {
-    return this._HTML;
-  }
-  get CSS() {
-    return this._CSS;
-  }
-  get JavaScript() {
-    return this._JavaScript;
-  }
-  get ASP() {
-    return this._ASP;
-  }
-  get SQL() {
-    return this._SQL;
-  }
-  get Ruby() {
-    return this._Ruby;
-  }
-}
-var treasureMix = new treausre(0, 1, 2);
+
+
 var dirt1 = document.querySelector('.dirt1');
 var dirt2 = document.querySelector('.dirt2');
 var dirt3 = document.querySelector('.dirt3');
